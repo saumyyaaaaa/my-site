@@ -1,0 +1,179 @@
+/* CSS BOX MODEL */
+/* Content - The content of the box, where text and images appear
+   Padding - Clears an area around the content. The padding is transparent
+   Border - A border that goes around the padding and content
+   Margin - Clears an area outside the border. The margin is transparent */
+
+/* To make things disapper 
+      1) display: none; ---> the position of the element will be adjusted and taken up by other elements, no space of the element will be left.
+      2) visibility: hidden; ---> the position of the element will not be adjusted and taken up by other elements, space of the element will be left. */
+
+/* 100% in font-size = 90px = 1em */
+
+/* the rem unit means "The root element's font-size" (rem stands for "root em"). The <li> elements inside the <ul> with a class of rems take their sizing from the root element ( <html> ) */
+
+/*The float property specifies whether an element should float to the left, right, or not at all.
+Note: Absolutely positioned elements ignore the float property!
+Elements next to a floating element will flow around it. To avoid this, use the clear property. */
+
+a{
+    color: #51087e;
+    font-family: 'Montserrat', serif;
+    margin: auto 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#d4d4d4;
+    text-decoration: underline;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 5.625rem;
+    /* line-height: 2; */
+    margin: 0 auto;
+    /* padding-top: 150px; */
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #880ed4;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #51087e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    border-color: #d4d4d4;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+    margin: 175px auto 35px auto;
+}
+
+p{
+    font-weight: 200px;
+    line-height: 1.75;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.bottom-container{
+    background-color: #b24bf3;
+    margin: 0;
+    padding: 50px 0 20px;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #d4d4d4;
+    font-size: 16px;
+    background: #880ed4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #b47ede;
+    text-decoration: none;
+  }
+
+.copyright{
+    color: #d4d4d4;
+    font-family: 'Montserrat', serif;
+    font-size: 0.75rem;
+}
+
+.dsa{
+    background: #51087e;
+    padding: 25px;
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.get-in-touch{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.hello{
+    color: #b24bf3;
+}
+
+.intro{
+    width: 45%;
+    line-height: 1.5;
+    margin: auto;
+    font-weight: 300px;
+}
+
+.lets-talk{
+    padding: 20px 0px;
+}
+
+.middle-container{
+    margin: 75px auto 25px auto;
+}
+
+.profile-picture{
+    width: 15%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.top-container{
+    background-image: url(bg.jpg);
+    height: 1080px;
+    padding-top: 100px;
+}
+
+.web-design-dev{
+        background: #51087e;
+        padding: 25px;
+        border-radius: 50%;
+        width: 25%;
+        float: left;
+        margin-right: 30px;
+}
+
+#student{
+    margin-top: 0;
+    font-size: 24px;
+    padding-bottom: 100px;
+    color: #b24bf3;
+    font-weight: 400px;
+}
